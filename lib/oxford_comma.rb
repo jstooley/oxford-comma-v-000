@@ -5,7 +5,7 @@ elsif array.length == 2
   string = array.join(" and ")
 else
   last = array.pop
-  first = array.join(" , ")
+  first = array.join(", ")
   "#{first}, and #{last}"
   end
 
